@@ -2,8 +2,8 @@
 
 ## What is it
 
-Simple tool designed to run on Raspberry Pi (or any Windows/Linux computer using Docker) offering tracking response times of ICMP echo request for targeted hosts. 
-I put it together in an hour, for my friends request. Do not expect anything fancy!
+This tool runs on Raspberry Pi (or any Windows/Linux computer using Docker). It was designed in an hour to track response times of ICMP echo requests for specified hosts. 
+Don't expect anything fancy – it's a quick and basic solution!
 
 ## How it Works
 
