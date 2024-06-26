@@ -2,7 +2,7 @@ FROM python:3.10.14-alpine
 LABEL author="Kuba.csproj"
 
 ENV LOG_FILE="log.txt"
-ENV LOG_FREQUENCY=64
+ENV LOG_FREQUENCY=60
 
 RUN pip install --upgrade pip
 
