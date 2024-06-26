@@ -12,7 +12,7 @@ Don't expect anything fancy – it's a quick and basic solution!
   * **LOG_FREQUENCY** - A frequency of running the pings in seconds. [60]
 2. Set target hosts in ```app/ping_addresses.txt```. One IP address (or domain name) per line.
 2. You build the container by navigating to SimplePingLogger directory and running ```docker build -t simplepinglogger```.
-3. And you run it! Using command ```docker run --name ping_logger simplepinglogger```.
+3. And you run it! Using command ```docker run --name ping_logger simplepinglogger .```.
   * TIP: If you wanna store logs on a USB stick, run ```docker run -t -i --device=/USB_DIR --name ping_logger simplepingloggger``` with USB_DIR being your USB directory.
 
 ## Why the hell would I wanna run it
