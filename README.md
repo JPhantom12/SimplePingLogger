@@ -14,3 +14,7 @@ I put it together in an hour, for my friends request. Do not expect anything fan
 2. You build the container by navigating to SimplePingLogger directory and running ```docker build -t simplepinglogger```.
 3. And you run it! Using command ```docker run --name ping_logger simplepinglogger```.
   * TIP: If you wanna store logs on a USB stick, run ```docker run -t -i --device=/USB_DIR --name ping_logger simplepingloggger``` with USB_DIR being your USB directory.
+
+## Why the hell would I wanna run it
+
+I don't know, it's lightweight and it is dockerized I guess.
