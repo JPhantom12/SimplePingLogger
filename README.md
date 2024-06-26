@@ -18,3 +18,5 @@ Don't expect anything fancy – it's a quick and basic solution!
 ## Why the hell would I wanna run it
 
 I don't know, it's lightweight and it is dockerized I guess.
+I also plan to make a simple data viewer, so you can easily view and analyze the results. 
+The project aims to be lightweight and simple, so a web server or similar features are not currently planned.
